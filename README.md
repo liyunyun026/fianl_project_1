@@ -47,6 +47,6 @@ Clear ->8DIP SW<br>
 *** 說明程式邏輯 <br>
 我們使用(cnt2*5+3) % 16的規律產生不同位置的地鼠，當我們輸入的SW與地鼠位置相同，8*8LED全滅，蜂鳴器(beep <= 1)叫，當她出現下一隻地鼠時，蜂鳴器關掉(beep<=0)，第一關分數達到要進入第二關時。level=2,之後打到地鼠變加兩分，第二關分數達到要進入第三關時。level=3,之後打到地鼠變加三分。
 
-#### Demo video: (請將影片放到雲端空間)
+#### Demo video:
 
 <a href="https://drive.google.com/open?id=1SjR92iDzxGfawsR4vjKTTilQSDsw8st8" title="Demo Video"><img src="https://github.com/liyunyun026/fianl_project_1/blob/master/images/first.jpg" alt="Demo Video" width="500"/></a>
