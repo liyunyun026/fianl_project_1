@@ -48,4 +48,4 @@ Clear ->8DIP SW<br>
 
 #### Demo video: (請將影片放到雲端空間)
 
-<a href="https://drive.google.com/open?id=1SjR92iDzxGfawsR4vjKTTilQSDsw8st8" title="Demo Video"><img src="https://github.com/liyunyun026/fianl_project_1/blob/master/images/first.jpg"" alt="Demo Video" width="500"/></a>
+<a href="https://drive.google.com/open?id=1SjR92iDzxGfawsR4vjKTTilQSDsw8st8" title="Demo Video"><img src="https://github.com/liyunyun026/fianl_project_1/blob/master/images/first.jpg" alt="Demo Video" width="500"/></a>
