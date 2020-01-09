@@ -37,8 +37,9 @@ module twodigit_onefile //倒數計時器
 [7:0]DATA_R, DATA_G, DATA_B,[3:0]COMM ->接到8*8全彩點矩陣<br>
 beep ->接到BEEP(蜂鳴器)<br>
 [3:0]A ->4-bits SW<br>
-[5:0]A_count ->接到16-bits LED(LED11~16)<br>
-[1:0]level ->接到16-bits LED(LED1~2)<br>
+[5:0]A_count ->接到16-bits LED(LED11~16)  <br>
+
+[1:0]level ->接到16-bits LED(LED1~2)     <br>
 a,b,c,d,e,f,g ->7 SEG X4(七段顯示器)<br>
 [3:0]an ->7 SEG X4<br>
 Clear ->8DIP SW<br>
