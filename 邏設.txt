@@ -48,15 +48,15 @@ module LED_test_2(output [7:0]DATA_R, DATA_G, DATA_B, output [3:0]COMM, input CL
 				if(A_count <= 6'b001000)begin
 					level <= 2'b01;
 				end
-				if(A_count >= 6'b001000)begin
+				if(A_count >= 6'b001000)begin  //第一關分數達到
 					DATA_B = H_Char[cnt];
 					level <= 2'b10;
 				end
-				if(A_count >= 6'b010100)begin
+				if(A_count >= 6'b010100)begin //第二關分數達到
 					DATA_G = H_Char[cnt];
 					level <= 2'b11;
 				end
-				if(A_count == 6'b011101)begin
+				if(A_count == 6'b011101)begin // 過關
 					DATA_R = 8'b00000000;
 					DATA_G = 8'b00000000;
 					DATA_B = 8'b00000000;
