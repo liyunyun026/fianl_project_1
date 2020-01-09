@@ -30,6 +30,9 @@ module LED_test_2(output [7:0]DATA_R, DATA_G, DATA_B, //紅色燈，綠色燈，
 		  output [1:0]level,// 關卡等級<br>
 		  output [3:0]an//控制時間輸出位置<br>
                    );<br><br>
+module divfreq (input CLK, output reg CLK_div);  // 除頻器
+module change_1HZ(input CLK, output reg CLK_div1); //產生頻率
+module twodigit_onefile //倒數計時器
 各I/O變數接到FPGA I/O裝置：   <br>              
 [7:0]DATA_R, DATA_G, DATA_B,[3:0]COMM ->接到8*8全彩點矩陣<br>
 beep ->接到BEEP(蜂鳴器)<br>
@@ -40,5 +43,4 @@ a,b,c,d,e,f,g ->7 SEG X4(七段顯示器)<br>
 [3:0]an ->7 SEG X4<br>
 Clear ->8DIP SW<br>
 *** 說明程式邏輯 <br>
-我們使用
-         
+我們使用(cnt2*5+3) % 16的規律產生不同位置的地鼠，當我們輸入的SW與地鼠位置相同，8*8LED全滅，蜂鳴器(beep <= 1)叫，當她出現下一隻地鼠時，蜂鳴器關掉(beep<=0)，第一關分數達到要進入第二關時。level=2,之後打到地鼠變加兩分，第二關分數達到要進入第三關時。level=3,之後打到地鼠變加三分。
