@@ -4,15 +4,15 @@
 #### Input/Output unit:<br> 
 * 8x8 LED 矩陣，用來顯示地鼠(2*2)，圖為初始畫面。(此為第一關，紅色地鼠，加一分)<br>
 <img src="https://github.com/liyunyun026/fianl_project_1/blob/master/images/first.jpg" width="300"/><br>
-*第二關紫色地鼠，加兩分。<br>
+* 第二關紫色地鼠，加兩分。<br>
 <img src="https://github.com/liyunyun026/fianl_project_1/blob/master/images/second.jpg" width="300"/><br>
-*第三關白紫地鼠，加三分，綠色為干擾。<br>
+* 第三關白紫地鼠，加三分，綠色為干擾。<br>
 <img src="https://github.com/liyunyun026/fianl_project_1/blob/master/images/third.jpg" width="300"/><br>
-*LED 陣列，用來計分，顯示關卡。<br>
+* LED 陣列，用來計分，顯示關卡。<br>
 <img src="https://github.com/liyunyun026/fianl_project_1/blob/master/images/level_score.jpg" width="300"/><br>
-*七段顯示器，用來顯示剩餘時間。<br>
+* 七段顯示器，用來顯示剩餘時間。<br>
 <img src="https://github.com/liyunyun026/fianl_project_1/blob/master/images/time.jpg" width="300"/><br>
-*到達設定積分上限顯示全白為結束畫面。<br>
+* 到達設定積分上限顯示全白為結束畫面。<br>
 <img src="https://github.com/liyunyun026/fianl_project_1/blob/master/images/end.jpg" width="300"/><br>
 
 #### 功能說明:<br>
