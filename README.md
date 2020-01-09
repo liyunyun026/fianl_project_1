@@ -30,9 +30,9 @@ module LED_test_2(output [7:0]DATA_R, DATA_G, DATA_B, //紅色燈，綠色燈，
 		  output [1:0]level,// 關卡等級<br>
 		  output [3:0]an//控制時間輸出位置<br>
                    );<br><br>
-module divfreq (input CLK, output reg CLK_div);  // 除頻器
-module change_1HZ(input CLK, output reg CLK_div1); //產生頻率
-module twodigit_onefile //倒數計時器
+module divfreq (input CLK, output reg CLK_div);  // 除頻器<br>
+module change_1HZ(input CLK, output reg CLK_div1); //產生頻率<br>
+module twodigit_onefile //倒數計時器<br>
 各I/O變數接到FPGA I/O裝置：   <br>              
 [7:0]DATA_R, DATA_G, DATA_B,[3:0]COMM ->接到8*8全彩點矩陣<br>
 beep ->接到BEEP(蜂鳴器)<br>
